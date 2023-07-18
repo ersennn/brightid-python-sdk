@@ -6,7 +6,7 @@ BrightID SDK for Python
 
 This library provides a Python interface for the [BrightID API](https://dev.brightid.org/docs/node-api/web_services/foxx/node-api-5.6.0.yaml). It's compatible with Python 3 and supports BrightID API 5. In addition to the API implementation, this library provides required tools to make BrightID integration easy and straightforward for app developers.
 
-Visit [dev.brightid.org](https://dev.brightid.og) to find out more developer guides and documents.
+Visit [our developer guides and API explorer](https://brightid.stoplight.io).
 
 ## Installing
 
