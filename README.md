@@ -4,7 +4,7 @@ BrightID SDK for Python
 
 ## Introduction
 
-This library provides a Python interface for the [BrightID API](https://dev.brightid.org/docs/node-api/web_services/foxx/node-api-5.6.0.yaml). It's compatible with Python 3 and supports BrightID API 5. In addition to the API implementation, this library provides required tools to make BrightID integration easy and straightforward for app developers.
+This library provides a Python interface for the [BrightID API](https://brightid.stoplight.io/docs/node-api/web_services/foxx/node-api-5.6.0.yaml). It's compatible with Python 3 and supports BrightID API 5. In addition to the API implementation, this library provides required tools to make BrightID integration easy and straightforward for app developers.
 
 Visit [our developer guides and API explorer](https://brightid.stoplight.io).
 
@@ -64,7 +64,7 @@ If exception is raised and `str(e)` is:
 
 - `user can not be verified for this app`, it means user is not verified on BrightID yet. The app should ask user to return back after [getting verified](https://brightid.gitbook.io/brightid/getting-verified) on BrightID.
 
-- `user is not sponsored`, it means that user is not [sponsored](https://dev.brightid.org/docs/guides/docs/basic-integration.md#sponsoring-users) and app should sponsor the user by signing and sending a `Sponsor` operation, wait about 10 seconds for the operation to get applied, and then query again.
+- `user is not sponsored`, it means that user is not [sponsored](https://brightid.stoplight.io/docs/guides/docs/basic-integration.md#sponsoring-users) and app should sponsor the user by signing and sending a `Sponsor` operation, wait about 10 seconds for the operation to get applied, and then query again.
 
 ```
     >>> import brightid
@@ -90,7 +90,7 @@ If exception is raised and `str(e)` is:
 
 ## Using API
 
-Check [BrightID API documentation](https://dev.brightid.org/docs/node-api) to find more details.
+Check [BrightID API documentation](https://brightid.stoplight.io/docs/node-api) to find more details.
 
 #### Connecting to Node
 
